@@ -1,16 +1,16 @@
 # use this file to set variables and paths that the program relies on
 
 # path variable to ns-3 location
-NS-3_PATH: /home/mike/apps/ns-allinone-3.26/ns-3.26
+NS-3_PATH: /home/vagrant/NS-3_LXC/ns-allinone-3.26/ns-3.26
 
 # path variable to script output location
-SCRIPT_DEST: /home/mike/NS-3_LXC/temp/scripts
+SCRIPT_DEST: /home/vagrant/NS-3_LXC/temp/scripts
 
 # path to store various temporary output (like container config files)
-TEMP_DIR: /home/mike/NS-3_LXC/temp
+TEMP_DIR: /home/vagrant/NS-3_LXC/temp
 
 # path variable to store container output
-OUTPUT_DEST: /home/mike/NS-3_LXC/temp/output
+OUTPUT_DEST: /home/vagrant/NS-3_LXC/temp/output
 
 # default container template to use for LXC
 CONTAINER_TYPE: ubuntu xenial
